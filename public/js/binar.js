@@ -1,7 +1,7 @@
 function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 class Binar {
@@ -10,7 +10,9 @@ class Binar {
       const isPositive = getRandomInt(0, 1) === 1;
       const timeAt = new Date();
       const mutator = getRandomInt(1000000, 100000000);
-      const availableAt = new Date(timeAt.getTime() + (isPositive ? mutator : -1 * mutator))
+      const availableAt = new Date(
+        timeAt.getTime() + (isPositive ? mutator : -1 * mutator),
+      )
 
       return {
         ...car,
@@ -28,7 +30,8 @@ class Binar {
       cars = this.populateCars(cacheCars);
     } else {
       const response = await fetch(
-        "https://raw.githubusercontent.com/fnurhidayat/probable-garbanzo/main/data/cars.min.json"
+        "https://raw.githubusercontent.com/fnurhidayat/probable-garbanzo/main/data/cars.min.json",
+        // 'http://localhost:8000/api/cars'
       );
       const body = await response.json();
       cars = this.populateCars(body)

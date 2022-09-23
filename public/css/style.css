@@ -1,0 +1,716 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+/* Navbar */
+
+nav {
+    font-family: 'Helvetica';
+    font-style: normal;
+    z-index: 9999;
+    background: #F1F3FF;
+}
+
+nav ul li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+form .btn-success {
+    box-sizing: border-box;
+    padding: 8px 12px;
+    gap: 10px;
+    background: #5CB85F;
+    border-radius: 2px;
+    border: none;
+}
+
+nav .button_register {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+nav .offcanvas-body {
+    gap: 32px;
+}
+
+nav .offcanvas-body ul {
+    gap: 22px;
+}
+
+@media only screen and (max-width:600px) {
+    nav .offcanvas-body ul {
+        gap: 5px;
+    }
+
+    nav .navbar-toggler {
+        border: none;
+    }
+}
+
+.navbar .container .offcanvas {
+    font-family: 'Helvetica';
+    font-style: normal;
+    width: 55vw;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+.offcanvas .offcanvas-header p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+/* Hero */
+
+.hero_section {
+    background: #F1F3FF;
+}
+
+.hero_section .container {
+    height: 440px;
+}
+
+.hero_section .hero_sewa {
+    font-family: 'Helvetica';
+    font-style: normal;
+    margin-top: 110px;
+    background: #F1F3FF;
+}
+
+.hero_section .hero_sewa h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.hero_section .hero_sewa p {
+    width: 468px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+
+button.button_sewa {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    gap: 10px;
+    background: #5CB85F;
+    border-radius: 2px;
+    border: none;
+}
+
+.hero_section .img_car img {
+    width: 650px;
+    height: 377px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero_section .hero_sewa {
+        gap: 16px;
+        margin-top: 32px;
+        width: 328px;
+        height: 292px;
+    }
+
+    .hero_section .hero_sewa p {
+        width: 328px;
+        word-spacing: 1px;
+    }
+
+    .hero_section .img_car {
+        width: 100vw;
+        height: 14rem;
+        margin-top: 100px;
+        padding-left: 16px;
+        padding-right: 0;
+    }
+
+    .hero_section .img_car img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Our Service */
+
+.our_service .img_service img {
+    width: 459px;
+    height: 428px;
+}
+
+.our_service .list_service {
+    gap: 24px;
+    width: 468px;
+    height: 356px;
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+.our_service .list_service h1,
+.faq_heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.our_service .list_service p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+
+.our_service .list_service ul {
+    gap: 20px;
+}
+
+.our_service .list_service li {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .our_service {
+        margin-top: 60px;
+    }
+
+    .our_service .img_service {
+        width: 16em;
+        height: 14.3em;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .our_service .img_service img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .our_service .list_service {
+        gap: 16px;
+        width: 90vw;
+        height: 428px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        margin: 25px auto;
+    }
+
+    .our_service .list_service ul {
+        gap: 20px;
+    }
+}
+
+/* Why Us */
+
+.why_us {
+    font-family: 'Helvetica';
+    font-style: normal;
+    margin-top: 100px;
+}
+
+.why_us .row {
+    margin-top: 40px;
+}
+
+.why_us h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.why_us h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.why_us p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.why_us .card {
+    padding: 24px;
+    width: 268px;
+    height: 196px;
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    .why_us {
+        font-family: 'Helvetica';
+        font-style: normal;
+        margin-top: 0px;
+    }
+
+    .why_us .row {
+        margin-top: 24px;
+        gap: 16px;
+        width: 90vw;
+        height: 832px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .why_us h1,
+    .why_us .p_why {
+        text-align: center;
+    }
+
+    .why_us .card {
+        padding: 24px;
+        width: 90vw;
+        height: 176px;
+        border: 1px solid #D0D0D0;
+        border-radius: 8px;
+    }
+
+    .why_us .row .col-sm-12 {
+        height: 176px;
+    }
+}
+
+/* Testimonial */
+
+.testimonial {
+    margin-top: 100px;
+    width: 1349px;
+    height: 488px;
+    overflow-x: hidden;
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+.testimonial h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.testimonial p,
+.faq p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.testimonial .testi-carousel {
+    position: absolute;
+    width: 1349px;
+    overflow-x: hidden;
+}
+
+.testimonial .name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.testimonial .carousel_row {
+    width: 1320px;
+    height: 370px;
+    margin: 0;
+}
+
+.testimonial .carousel_slide {
+    position: absolute;
+    width: 1390px;
+    height: 370px;
+    left: 100px;
+}
+
+.testimonial .carousel-item {
+    gap: 22px;
+}
+
+.testimonial .carousel-inner {
+    position: absolute;
+    width: 1920px;
+    height: 370px;
+    left: -369px;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.testimonial .carousel_card {
+    position: absolute;
+    width: 619px;
+    height: 270px;
+    background: #F1F3FF;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.carousel_card .card_img {
+    position: absolute;
+    left: 46px;
+    top: 95px;
+}
+
+.carousel_card .card_text {
+    gap: 8px;
+    position: absolute;
+    width: 415px;
+    height: 132px;
+    left: 172px;
+    top: 69px;
+}
+
+.testimonial .button {
+    position: absolute;
+    width: 88px;
+    height: 32px;
+    left: 47%;
+    top: 275%;
+}
+
+.testimonial .right_button {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 56px;
+    background: url('../images/Right-button.png');
+    border-radius: 50%;
+    border: 1px solid #C4C4C4;
+    z-index: 5;
+}
+
+.testimonial .right_button:hover {
+    background: url('../images/Right-button-hover.png');
+}
+
+.testimonial .left_button {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url('../images/Left-button.png');
+    border-radius: 50%;
+    border: 1px solid #C4C4C4;
+    z-index: 5;
+}
+
+.testimonial .left_button:hover {
+    background: url('../images/Left-button-hover.png');
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+@media only screen and (max-width: 600px) {
+    .testimonial {
+        margin: 15px auto 0 auto;
+        width: 100vw;
+        height: 588px;
+        overflow-x: hidden;
+        font-family: 'Helvetica';
+        font-style: normal;
+    }
+
+    .testimonial .testi-carousel {
+        position: absolute;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .testimonial .carousel_row {
+        width: 100vw;
+        height: 372px;
+        margin: 0;
+    }
+
+    .testimonial .carousel_slide {
+        position: absolute;
+        width: 100vw;
+        height: 372px;
+        left: 5%;
+        right: 5%;
+    }
+
+    .testimonial .carousel-inner {
+        position: absolute;
+        width: 92vw;
+        height: 372px;
+        left: 0;
+        top: 0;
+        overflow-x: hidden;
+    }
+
+    .testimonial .carousel_card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 32px;
+        gap: 24px;
+        position: absolute;
+        width: 90vw;
+        height: 372px;
+        margin: 0 auto;
+    }
+
+    .carousel_card .card_img {
+        position: absolute;
+        left: 8em;
+        top: 40px;
+    }
+
+    .carousel_card .card_text {
+        gap: 8px;
+        position: absolute;
+        width: 264px;
+        height: 154px;
+        left: 52px;
+        top: 144px;
+    }
+
+    .carousel_card .card_text .rate {
+        position: absolute;
+        left: 87px;
+        top: 0px;
+    }
+
+    .carousel_card .card_text .text-start {
+        position: absolute;
+        top: 42px;
+        margin: 0;
+    }
+
+    .carousel_card .card_text .name {
+        position: absolute;
+        top: 172px;
+    }
+
+    .testimonial .button {
+        position: absolute;
+        width: 88px;
+        height: 32px;
+        left: 9.5em;
+        top: 183em;
+    }
+}
+
+/* Banner */
+
+.banner .card_banner {
+    width: 1168px;
+    height: 326px;
+    background: #0D28A6;
+    border-radius: 13px;
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+.banner .card_banner h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.banner .card_banner p {
+    margin: 0 auto;
+    width: 35em;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner .card_banner {
+        padding: 64px 58px;
+        margin: 0 auto;
+        gap: 32px;
+        width: 90vw;
+        height: 414px;
+    }
+
+    .banner .card_banner .get_started {
+        gap: 16px;
+        width: 212px;
+        height: 204px;
+        margin: 0 auto;
+    }
+
+    .card_banner .get_started h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+        margin: 0 0 16px 0;
+    }
+
+    .card_banner .get_started p {
+        width: 15em;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 auto;
+    }
+
+    .banner .card_banner .card-body {
+        padding: 0;
+        margin-top: 32px;
+    }
+}
+
+/* FAQ */
+
+.faq {
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+.faq button,
+.faq .accordion-body,
+footer .address,
+footer .sosmed,
+footer .copyright {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .faq {
+        margin-top: 60px;
+    }
+
+    .faq h2,
+    .faq p {
+        text-align: center;
+    }
+
+    .faq h2 button {
+        word-spacing: 2px;
+    }
+
+    .faq .accordion_list,
+    .faq .faq_title {
+        width: 90vw;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+/* Footer */
+
+footer {
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+    font-style: normal;
+    gap: 86px;
+    margin: 60px 0;
+}
+
+footer .footer {
+    width: 90vw;
+}
+
+.footer .address {
+    width: 268px;
+}
+
+.address,
+.sosmed,
+.copyright {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .navigation-footer {
+    padding-left: 90px;
+}
+
+.footer-nav {
+    padding-left: 90px;
+    gap: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+footer .copyright {
+    padding-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+
+    footer {
+        margin-top: 30px;
+    }
+
+    .list-footer {
+        padding: 0 16px;
+    }
+
+    .footer-nav,
+    footer .copyright {
+        padding: 0;
+    }
+
+    footer .navigation-footer {
+        padding-left: 0;
+    }
+}
+
+footer .sosmed .icon_sosmed {
+    cursor: pointer;
+}
+
+footer .sosmed .icon_sosmed:hover {
+    transform: scale(1.1);
+}

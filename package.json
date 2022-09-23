@@ -1,12 +1,15 @@
 {
-  "name": "binar-fsw-challenge-04",
+  "name": "challenge-04-fsw",
   "version": "1.0.0",
   "description": "Project HTTP Server dan DOM",
   "main": "server/index.js",
-  "author": "Fikri Rahmat Nurhidayat <fnurhidayat@binar.co.id>",
+  "author": "M. Haikal Arif Khairil",
   "license": "MIT",
   "private": false,
   "scripts": {
     "start": "node server/index.js"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
   }
 }
